@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Basic styling for the for the sign-up form */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(9b24c34841b959ea7b5d32af06a2b196.jpg);
+            color: white;
+        }
+
+        div {
+            color: rgb(248, 243, 243);
+            padding: 20px;
+            margin-top: 50px;
+            width: 30%;
+            padding: 20px;
+            border: solid;
+            border-radius: 0px 50px 0px 50px;
+            box-shadow: 0px 0px 0px 5px;
+        }
+
+        img {
+            width: 110px;
+            height: 100px;
+            border-radius: 100%;
+            border: solid;
+            box-shadow: 0px 0px 0px 3px;
+            margin-left: 130px;
+        }
+
+        h2,
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        label {
+            text-align: left;
+            margin-left: 15px;
+        }
+
+        input {
+            width: 90%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding: 5px;
+            margin-left: 15px;
+            border: solid 1.5px;
+            cursor: pointer;
+        }
+
+        select {
+            width: 93.5%;
+            margin-top: 5px;
+            padding: 5px;
+            margin-bottom: 15px;
+            margin-left: 15px;
+            border: solid 1.5px;
+            cursor: pointer;
+        }
+
+        button {
+            border: 0;
+            margin-left: 15px;
+            margin-bottom: 5px;
+            width: 50%;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(248, 243, 243);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+        footer {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Sign up form container-->
+    <div>
+        <!--Sign up logo-->
+        <img src="IMG-20240617-WA0170.jpg" alt="">
+        <!--Form heading-->
+        <h2>
+            OUTSIDERS
+        </h2>
+        <p>
+            Get updated on <strong>
+                Burna boy's activities
+            </strong>
+        </p>
+        <h3>
+            JOIN
+        </h3>
+        <!--Starting of the form-->
+        <form action="">
+            <label for="first-name">First Name:</label>
+            <!--Input first name-->
+            <input type="text" id="first-name" name="first-name" required placeholder="Bello"> <br>
+            <label for="last-name">Last Name:</label>
+            <!--Input last name-->
+            <input type="text" id="last-name" name="last-name" required placeholder="Adeiza"> <br>
+            <label for="phone">Phone Number:</label>
+            <!--Input phone number-->
+            <input type="number" id="phone" name="phone" required placeholder="+234"> <br>
+            <label for="verification">D0 you follow bruna boy on any platform:</label>
+            <!--Verification question-->
+            <select class="select" id="verification" name="verification"> <br>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="soon">Soon</option>
+            </select>
+        </form>
+        <a href="">
+            <!--sign up button-->
+            <button>JOIN </button>
+        </a>
+        <footer>
+            <!--footer content-->
+            &copy;2024 Assignment
+        </footer>
+    </div>
+</body>
+
+</html>
